@@ -1,7 +1,7 @@
 # bTaskee challenge
 
 ## Project Overview
-The goal is to build a **Task Management App** with the following features:
+The goal is to build a **Task Management app** with the following features:
 1. **Task List View**: Display a list of tasks.
 2. **Add Task**: Allow users to add a new task.
 3. **Mark Task as Completed**: Allow users to toggle the completion status of a task.
@@ -13,10 +13,10 @@ The goal is to build a **Task Management App** with the following features:
 
 ## Deliverables
 You are expected to submit:
-1. A functional React app.
-2. Unit tests for core components using Jest and React Testing Library.
-3. End-to-End (E2E) tests using Cypress or Playwright.
-4. A **README.md** file explaining:
+1. [Must have] Use React or any framework based on it, use Typescript, dependency packages is latest version
+2. [Must have] Unit tests using Jest and React Testing Library.
+3. [Nice to have] End-to-end (E2E) tests using Cypress or Playwright.
+4. [Must have] A **README.md** file explaining:
    - How to set up and run the project.
    - How to run tests.
    - Any design decisions or assumptions made.
@@ -29,20 +29,20 @@ The implementation will be evaluated based on:
 2. **Testing**: Coverage of unit and E2E tests for critical features.
 3. **Functionality**: Accurate implementation of the specified features.
 4. **Documentation**: Clear and concise setup instructions.
-5. **Attention to Detail**: Edge cases, responsive UI, and user-friendly design.
 
 ---
 
 ## TODO List for the Challenge
 
-### Step 1: Project Setup (1 Hour)
+### Step 1: Project Setup (0.5 Hour)
+- Fork from this repository.
 - Create a React project using Vite, Create React App, or Next.js.
 - Configure TypeScript for type safety.
 - Install dependencies:
   - **Testing libraries**: Jest, React Testing Library.
   - **E2E testing**: Cypress or Playwright.
 - Set up ESLint and Prettier for clean code enforcement.
-
+- Create a pull request from your fork into this repository.
 ---
 
 ### Step 2: Implement Core Features (4 Hours)
@@ -61,20 +61,19 @@ The implementation will be evaluated based on:
    - Implement a button to delete a task.
 
 5. **Search Tasks**:
-   - Add a search bar to filter tasks by title in real-time.
+   - Add a search bar to filter tasks by title.
 
 6. **Persist Data**:
    - Save tasks to local storage and retrieve them on page reload.
 
 ---
 
-### Step 3: Write Unit Tests (1.5 Hours)
+### Step 3: Write Unit Tests (2 Hours)
 - Use Jest and React Testing Library to test:
-  - Task addition functionality.
-  - Task completion toggle.
-  - Task deletion.
-  - Search functionality.
-- Include at least one test to ensure components render properly with props.
+  - Components
+  - Customhook
+  - Functions: Search, Add, Delete, ...
+- Ensure full of coverage score
 
 ---
 
@@ -88,33 +87,11 @@ The implementation will be evaluated based on:
 ---
 
 ### Step 5: Final Touches and Documentation (0.5 Hour)
-- **Code Review**: Ensure clean code, proper TypeScript types, and React best practices.
+- **Code Review by yourself**: Ensure clean code, proper TypeScript types, and React best practices.
 - **Documentation**:
   - Add setup instructions (e.g., installing dependencies, running the app, and running tests).
   - Provide a brief explanation of your design decisions and technologies used.
 
 ---
 
-## Evaluation Criteria
-1. **Code Quality**:
-   - Clean, modular, and reusable components.
-   - Proper use of TypeScript for type safety.
-2. **Testing**:
-   - Sufficient unit test coverage.
-   - Functional E2E tests for core flows.
-3. **Functionality**:
-   - All features implemented accurately.
-   - Tasks persist across page reloads.
-4. **Documentation**:
-   - Clear setup instructions in the README file.
-5. **Attention to Detail**:
-   - Edge cases handled (e.g., empty tasks, duplicate tasks).
-   - User-friendly and responsive UI.
-
----
-
-## Extra Credit (Optional Tasks)
-1. **Dark Mode Toggle**:
-   - Add a dark mode toggle using React Context or simple state.
-2. **Task Prioritization**:
-   - Allow users to set task priority (e.g., high, medium, low) and sort tasks accordingly.
+**Ask our if you have any problems, or questions about this challenge. Fighting!**
